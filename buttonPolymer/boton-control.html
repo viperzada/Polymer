@@ -1,0 +1,55 @@
+<link rel="import"
+      href="bower_components/polymer/polymer.html">
+
+<dom-module id="boton-control">
+  
+  <style type="text/css">
+button.css3button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: -moz-linear-gradient(
+    top,
+    #42c3ff 0%,
+    #140066);
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#42c3ff),
+    to(#140066));
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #1ebda8;
+  -moz-box-shadow:
+    -9px 8px 9px rgba(000,000,000,0.5),
+    inset 0px 0px 2px rgba(255,255,255,1);
+  -webkit-box-shadow:
+    -9px 8px 9px rgba(000,000,000,0.5),
+    inset 0px 0px 2px rgba(255,255,255,1);
+  box-shadow:
+    -9px 8px 9px rgba(000,000,000,0.5),
+    inset 0px 0px 2px rgba(255,255,255,1);
+  text-shadow:
+    0px -1px 0px rgba(230,124,230,0.6),
+    0px 1px 0px rgba(163,50,163,0.3);
+}
+
+
+  </style>
+  <template>
+    <button type="button" name="" value="" class="css3button" >  
+      <audio controls>
+        <source src="sonidos/In_The_End.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio></button>
+  </template>
+
+  <script>
+    Polymer({
+      is: "boton-control"
+    });
+    
+  </script>
+
+</dom-module>

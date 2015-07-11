@@ -1,0 +1,24 @@
+{
+  "name": "buttonPolymer",
+  "version": "0.0.0",
+  "description": "boton con polymer",
+  "keywords": [
+    "polymer",
+    "button",
+    "web-component"
+  ],
+  "authors": [
+    "Oswaldo Lozada"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.0.6"
+  }
+}
